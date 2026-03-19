@@ -1,6 +1,12 @@
 {
     "ROS2.distro": "humble",
     "python.autoComplete.extraPaths": [
+        "/home/farhan/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/farhan/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
         "/home/farhan/husky_ws/build/stc_cpp",
         "/home/farhan/husky_ws/install/stc_cpp/lib/python3.10/site-packages",
         "/home/farhan/husky_ws/install/husky_ur10_moveit_config/local/lib/python3.10/dist-packages",
@@ -47,6 +53,12 @@
         "/home/farhan/nuplan-devkit"
     ],
     "python.analysis.extraPaths": [
+        "/home/farhan/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/farhan/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/farhan/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
         "/home/farhan/husky_ws/build/stc_cpp",
         "/home/farhan/husky_ws/install/stc_cpp/lib/python3.10/site-packages",
         "/home/farhan/husky_ws/install/husky_ur10_moveit_config/local/lib/python3.10/dist-packages",
@@ -91,6 +103,5 @@
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages",
         "/home/farhan/nuplan-devkit"
-    ],
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+    ]
 }
