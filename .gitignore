@@ -1,4 +1,6 @@
 .vscode/
-*.db
+build/
+install/
+log/
 *.db
 *.log
