@@ -20,7 +20,7 @@ def generate_launch_description():
     robotiq_share  = get_package_share_directory("robotiq_description")
     ur_share       = get_package_share_directory("ur_description")
     gazebo_ros_dir = get_package_share_directory("gazebo_ros")
-    world_file = os.path.join(get_package_share_directory('ur10_robotiq'), 'worlds', 'world2.world')
+    world_file = os.path.join(get_package_share_directory('ur10_robotiq'), 'worlds', 'training.world')
 
     # --- ENV Gazebo ---
     ld.add_action(SetEnvironmentVariable(
@@ -48,7 +48,7 @@ def generate_launch_description():
     with_octomap  = DeclareLaunchArgument("with_octomap", default_value="true")  # << NEW
     x_arg = DeclareLaunchArgument("x", default_value="0")
     y_arg = DeclareLaunchArgument("y", default_value="0")
-    z_arg = DeclareLaunchArgument("z", default_value="0")
+    z_arg = DeclareLaunchArgument("z", default_value="0.965")
     ld.add_action(with_rviz); ld.add_action(with_octomap)
     ld.add_action(x_arg); ld.add_action(y_arg); ld.add_action(z_arg)
 
