@@ -20,7 +20,7 @@ def generate_launch_description():
     robotiq_share  = get_package_share_directory("robotiq_description")
     ur_share       = get_package_share_directory("ur_description")
     gazebo_ros_dir = get_package_share_directory("gazebo_ros")
-    world_file = os.path.join(get_package_share_directory('ur10_robotiq'), 'worlds', 'training.world')
+    world_file = os.path.join(get_package_share_directory('ur10_robotiq'), 'worlds', 'dev.world')
 
     # --- ENV Gazebo ---
     ld.add_action(SetEnvironmentVariable(
