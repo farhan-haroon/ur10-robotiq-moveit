@@ -1242,7 +1242,7 @@
     </model>
     <model name='cylinder_r'>
       <link name='link_0'>
-        <pose>0 0 0.1 0 -0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <inertial>
           <mass>0.5</mass>
           <inertia>
