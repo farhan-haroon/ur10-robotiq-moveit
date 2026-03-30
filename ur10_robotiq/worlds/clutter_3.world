@@ -428,7 +428,7 @@
           <wrench>0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cuboid_b_clone'>
+      <model name='cuboid_yellow'>
         <pose>0.053708 -0.553719 1.0372 -0.221957 -1.56592 -2.91017</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -448,7 +448,7 @@
           <wrench>-0.176229 -0.002576 -0.000917 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cuboid_g_clone'>
+      <model name='cuboid_purple'>
         <pose>-0.297436 -0.556763 1.03574 -0.255891 -1.56639 -2.88593</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -468,7 +468,7 @@
           <wrench>0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cuboid_r_clone'>
+      <model name='cuboid_orange'>
         <pose>-0.016289 -0.555057 1.0369 -0.289499 -1.56652 -2.86672</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -478,7 +478,7 @@
           <wrench>0.08309 -0.163231 0.553051 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cuboid_r_clone_clone'>
+      <model name='cuboid_cyan'>
         <pose>0.21577 -0.552761 1.02324 -3.14141 -0.11814 0.005606</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -1436,7 +1436,7 @@
       <allow_auto_disable>0</allow_auto_disable>
       <pose>-0.057665 -1.02442 0.978278 0.001139 -0.00414 -2e-06</pose>
     </model>
-    <model name='cuboid_g_clone'>
+    <model name='cuboid_purple'>
       <link name='link'>
         <inertial>
           <mass>2</mass>
@@ -1461,8 +1461,8 @@
             </box>
           </geometry>
           <material>
-            <ambient>0 1 0 1</ambient>
-            <diffuse>0 1 0 1</diffuse>
+            <ambient>0.5 0 0.5 1</ambient>
+            <diffuse>0.5 0 0.5 1</diffuse>
             <specular>0.1 0.1 0.1 1</specular>
           </material>
           <pose>0 0 0 0 -0 0</pose>
@@ -1521,7 +1521,7 @@
       <allow_auto_disable>0</allow_auto_disable>
       <pose>-0.297437 -0.556759 1.03662 -0.243801 -1.56638 -2.89802</pose>
     </model>
-    <model name='cuboid_r_clone'>
+    <model name='cuboid_orange'>
       <link name='link'>
         <inertial>
           <mass>2</mass>
@@ -1546,8 +1546,8 @@
             </box>
           </geometry>
           <material>
-            <ambient>1 0 0 1</ambient>
-            <diffuse>1 0 0 1</diffuse>
+            <ambient>1 0.5 0 1</ambient>
+            <diffuse>1 0.5 0 1</diffuse>
             <specular>0.1 0.1 0.1 1</specular>
           </material>
           <pose>0 0 0 0 -0 0</pose>
@@ -1606,7 +1606,7 @@
       <allow_auto_disable>0</allow_auto_disable>
       <pose>-0.016297 -0.555053 1.03602 -0.269942 -1.56639 -2.88628</pose>
     </model>
-    <model name='cuboid_b_clone'>
+    <model name='cuboid_yellow'>
       <link name='link'>
         <inertial>
           <mass>2</mass>
@@ -1631,8 +1631,8 @@
             </box>
           </geometry>
           <material>
-            <ambient>0 0 1 1</ambient>
-            <diffuse>0 0 1 1</diffuse>
+            <ambient>1 1 0 1</ambient>
+            <diffuse>1 1 0 1</diffuse>
             <specular>0.1 0.1 0.1 1</specular>
           </material>
           <pose>0 0 0 0 -0 0</pose>
@@ -1691,7 +1691,7 @@
       <allow_auto_disable>0</allow_auto_disable>
       <pose>0.053747 -0.553718 1.03632 -0.246394 -1.56638 -2.88573</pose>
     </model>
-    <model name='cuboid_r_clone_clone'>
+    <model name='cuboid_cyan'>
       <link name='link'>
         <inertial>
           <mass>2</mass>
@@ -1716,8 +1716,8 @@
             </box>
           </geometry>
           <material>
-            <ambient>1 0 0 1</ambient>
-            <diffuse>1 0 0 1</diffuse>
+            <ambient>0 1 1 1</ambient>
+            <diffuse>0 1 1 1</diffuse>
             <specular>0.1 0.1 0.1 1</specular>
           </material>
           <pose>0 0 0 0 -0 0</pose>
