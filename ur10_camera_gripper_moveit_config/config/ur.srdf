@@ -62,6 +62,14 @@
         <joint name="wrist_2_joint" value="-4.7"/>
         <joint name="wrist_3_joint" value="0"/>
     </group_state>
+    <group_state name="top" group="ur10_manipulator">
+        <joint name="elbow_joint" value="-1.48353"/>
+        <joint name="shoulder_lift_joint" value="-1.3439"/>
+        <joint name="shoulder_pan_joint" value="-4.2586"/>
+        <joint name="wrist_1_joint" value="-1.88496"/>
+        <joint name="wrist_2_joint" value="-4.72984"/>
+        <joint name="wrist_3_joint" value="0.453786"/>
+    </group_state>
     <group_state name="open" group="robotiq_gripper">
         <joint name="robotiq_85_left_knuckle_joint" value="0"/>
     </group_state>
