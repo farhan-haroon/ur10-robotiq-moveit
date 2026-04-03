@@ -520,6 +520,10 @@
       </camera>
     </gui>
     <plugin name='gazebo_link_attacher' filename='libgazebo_link_attacher.so'/>
+    <plugin name='gazebo_ros_state' filename='libgazebo_ros_state.so'>
+      <namespace>/gazebo</namespace>
+      <update_rate>100</update_rate>
+    </plugin>
     <model name='camera'>
       <link name='link'>
         <inertial>
