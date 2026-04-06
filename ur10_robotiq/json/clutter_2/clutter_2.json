@@ -57,7 +57,7 @@
                 }
             ],
 
-            "clutter_collapse": "true"
+            "clutter_collapse": "false"
         },
 
         {
@@ -77,7 +77,7 @@
                 }
             ],
 
-            "clutter_collapse": "true"
+            "clutter_collapse": "false"
         },
 
         {
@@ -97,7 +97,7 @@
                 }
             ],
 
-            "clutter_collapse": "true"
+            "clutter_collapse": "false"
         },
 
         {
@@ -137,7 +137,7 @@
                 }
             ],
 
-            "clutter_collapse": "true"
+            "clutter_collapse": "false"
         },
 
         {
@@ -157,7 +157,7 @@
                 }
             ],
 
-            "clutter_collapse": "true"
+            "clutter_collapse": "false"
         }
     ]
 }

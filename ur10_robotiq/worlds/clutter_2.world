@@ -489,10 +489,10 @@
         </link>
       </model>
       <model name='table'>
-        <pose>-0.00035 0.800905 -1.2e-05 0 -0 2.5e-05</pose>
+        <pose>0.056083 0.801191 -1.2e-05 0 -0 2.5e-05</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-0.00035 0.800905 -1.2e-05 0 -0 2.5e-05</pose>
+          <pose>0.056083 0.801191 -1.2e-05 0 -0 2.5e-05</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
