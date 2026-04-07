@@ -54,7 +54,7 @@
             <camera>
             <horizontal_fov>1.089</horizontal_fov>
             <image><format>R8G8B8</format><width>640</width><height>480</height></image>
-            <clip><near>0.05</near><far>8</far></clip>
+            <clip><near>0.05</near><far>5</far></clip>
             </camera>
             <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
             <frame_name>camera_optical_link</frame_name>

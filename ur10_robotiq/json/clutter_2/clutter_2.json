@@ -21,8 +21,11 @@
 
     "iterations": [
         {
-            "top_view": "it1_top.png",
-            "side_views": ["it1_front.png", "it1_left.png", "it1_right.png"],
+            "top_view_rgb_rgb": "it1_top.png",
+            "side_views_rgb": ["it1_front.png", "it1_left.png", "it1_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "7",
 
@@ -41,8 +44,11 @@
         },
 
         {
-            "top_view": "it2_top.png",
-            "side_views": ["it2_front.png", "it2_left.png", "it2_right.png"],
+            "top_view_rgb": "it2_top.png",
+            "side_views_rgb": ["it2_front.png", "it2_left.png", "it2_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "3",
 
@@ -61,8 +67,11 @@
         },
 
         {
-            "top_view": "it3_top.png",
-            "side_views": ["it3_front.png", "it3_left.png", "it3_right.png"],
+            "top_view_rgb": "it3_top.png",
+            "side_views_rgb": ["it3_front.png", "it3_left.png", "it3_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "1",
 
@@ -81,8 +90,11 @@
         },
 
         {
-            "top_view": "it4_top.png",
-            "side_views": ["it4_front.png", "it4_left.png", "it4_right.png"],
+            "top_view_rgb": "it4_top.png",
+            "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "5",
 
@@ -101,8 +113,11 @@
         },
 
         {
-            "top_view": "it5_top.png",
-            "side_views": ["it5_front.png", "it5_left.png", "it5_right.png"],
+            "top_view_rgb": "it5_top.png",
+            "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "4",
 
@@ -121,8 +136,11 @@
         },
 
         {
-            "top_view": "it6_top.png",
-            "side_views": ["it6_front.png", "it6_left.png", "it6_right.png"],
+            "top_view_rgb": "it6_top.png",
+            "side_views_rgb": ["it6_front.png", "it6_left.png", "it6_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "6",
 
@@ -141,8 +159,11 @@
         },
 
         {
-            "top_view": "it7_top.png",
-            "side_views": ["it7_front.png", "it7_left.png", "it7_right.png"],
+            "top_view_rgb": "it7_top.png",
+            "side_views_rgb": ["it7_front.png", "it7_left.png", "it7_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
 
             "pursuing_obj": "2",
 

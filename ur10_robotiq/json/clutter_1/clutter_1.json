@@ -1,0 +1,230 @@
+{
+    "objects": {
+        "1": "cube_r",
+        "2": "cube_g",
+        "3": "cube_b",
+        "4": "cuboid_r",
+        "5": "cuboid_g",
+        "6": "cuboid_b",
+        "7": "cylinder_r",
+        "8": "cylinder_g",
+        "9": "cylinder_b"
+    },
+
+    "trays": {
+        "1": "tray_green",
+        "2": "tray_red",
+        "3": "tray_blue"
+    },
+
+    "actions": ["pick", "push", "drop", "place"],
+
+    "iterations": [
+        {
+            "top_view_rgb": "it1_top.png",
+            "side_views_rgb": ["it1_front.png", "it1_left.png", "it1_right.png"],
+
+            "top_view_depth": "it1_top_depth.png",
+            "side_views_depth": ["it1_front_depth.png", "it1_left_depth.png", "it1_right_depth.png"],
+
+            "pursuing_obj": "9",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "9"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it2_top.png",
+            "side_views": ["it2_front.png", "it2_left.png", "it2_right.png"],
+
+            "top_view_depth": "it2_top_depth.png",
+            "side_views_depth": ["it2_front_depth.png", "it2_left_depth.png", "it2_right_depth.png"],
+
+            "pursuing_obj": "8",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "8"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it3_top.png",
+            "side_views_rgb": ["it3_front.png", "it3_left.png", "it3_right.png"],
+
+            "top_view_depth": "it3_top_depth.png",
+            "side_views_depth": ["it3_front_depth.png", "it3_left_depth.png", "it3_right_depth.png"],
+
+            "pursuing_obj": "7",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "7"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it4_top.png",
+            "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "5",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "5"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it5_top.png",
+            "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "4",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "4"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "true"
+        },
+
+        {
+            "top_view_rgb": "it6_top.png",
+            "side_views_rgb": ["it6_front.png", "it6_left.png", "it6_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "6",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "6"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it7_top.png",
+            "side_views_rgb": ["it7_front.png", "it7_left.png", "it7_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "2",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "2"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it8_top.png",
+            "side_views_rgb": ["it8_front.png", "it8_left.png", "it8_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "1",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "1"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it9_top.png",
+            "side_views_rgb": ["it9_front.png", "it9_left.png", "it9_right.png"],
+
+            "top_view_depth": null,
+            "side_views_depth": [],
+
+            "pursuing_obj": "3",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "3"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        }
+    ]
+}
