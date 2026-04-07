@@ -3,12 +3,17 @@
         "1": "cube_r",
         "2": "cube_g",
         "3": "cube_b",
-        "4": "cuboid_r",
-        "5": "cuboid_g",
-        "6": "cuboid_b",
-        "7": "cylinder_r",
-        "8": "cylinder_g",
-        "9": "cylinder_b"
+        "4": "cube_purple",
+        "5": "cuboid_r",
+        "6": "cuboid_g",
+        "7": "cuboid_b",
+        "8": "cuboid_purple",
+        "9": "cuboid_orange",
+        "10": "cuboid_yellow",
+        "11": "cuboid_cyan",
+        "12": "cylinder_r",
+        "13": "cylinder_g",
+        "14": "cylinder_b"
     },
 
     "trays": {
@@ -36,7 +41,7 @@
                 },
                 {
                     "type": "place",
-                    "tray_id": "3"
+                    "tray_id": "2"
                 }
             ],
 
@@ -45,21 +50,21 @@
 
         {
             "top_view_rgb": "it2_top.png",
-            "side_views": ["it2_front.png", "it2_left.png", "it2_right.png"],
+            "side_views_rgb": ["it2_front.png", "it2_left.png", "it2_right.png"],
 
             "top_view_depth": "it2_top_depth.png",
             "side_views_depth": ["it2_front_depth.png", "it2_left_depth.png", "it2_right_depth.png"],
 
-            "pursuing_obj": "9",
+            "pursuing_obj": "10",
 
             "actions": [
                 {
                     "type": "pick",
-                    "obj_id": "9"
+                    "obj_id": "10"
                 },
                 {
                     "type": "place",
-                    "tray_id": "3"
+                    "tray_id": "2"
                 }
             ],
 
@@ -72,6 +77,29 @@
 
             "top_view_depth": "it3_top_depth.png",
             "side_views_depth": ["it3_front_depth.png", "it3_left_depth.png", "it3_right_depth.png"],
+
+            "pursuing_obj": "11",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "11"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it4_top.png",
+            "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
+
+            "top_view_depth": "it4_top_depth.png",
+            "side_views_depth": ["it4_front_depth.png", "it4_left_depth.png", "it4_right_depth.png"],
 
             "pursuing_obj": "5",
 
@@ -90,11 +118,11 @@
         },
 
         {
-            "top_view_rgb": "it4_top.png",
-            "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
+            "top_view_rgb": "it5_top.png",
+            "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
 
-            "top_view_depth": "it4_top_depth.png",
-            "side_views_depth": ["it4_front_depth.png", "it4_left_depth.png", "it4_right_depth.png"],
+            "top_view_depth": "it5_top_depth.png",
+            "side_views_depth": ["it5_front_depth.png", "it5_left_depth.png", "it5_right_depth.png"],
 
             "pursuing_obj": "6",
 
@@ -113,41 +141,18 @@
         },
 
         {
-            "top_view_rgb": "it5_top.png",
-            "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
-
-            "top_view_depth": "it5_top_depth.png",
-            "side_views_depth": ["it5_front_depth.png", "it5_left_depth.png", "it5_right_depth.png"],
-
-            "pursuing_obj": "7",
-
-            "actions": [
-                {
-                    "type": "pick",
-                    "obj_id": "7"
-                },
-                {
-                    "type": "place",
-                    "tray_id": "3"
-                }
-            ],
-
-            "clutter_collapse": "true"
-        },
-
-        {
             "top_view_rgb": "it6_top.png",
             "side_views_rgb": ["it6_front.png", "it6_left.png", "it6_right.png"],
 
             "top_view_depth": "it6_top_depth.png",
             "side_views_depth": ["it6_front_depth.png", "it6_left_depth.png", "it6_right_depth.png"],
 
-            "pursuing_obj": "4",
+            "pursuing_obj": "14",
 
             "actions": [
                 {
                     "type": "pick",
-                    "obj_id": "4"
+                    "obj_id": "14"
                 },
                 {
                     "type": "place",
@@ -164,6 +169,52 @@
 
             "top_view_depth": "it7_top_depth.png",
             "side_views_depth": ["it7_front_depth.png", "it7_left_depth.png", "it7_right_depth.png"],
+
+            "pursuing_obj": "9",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "9"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it8_top.png",
+            "side_views_rgb": ["it8_front.png", "it8_left.png", "it8_right.png"],
+
+            "top_view_depth": "it8_top_depth.png",
+            "side_views_depth": ["it8_front_depth.png", "it8_left_depth.png", "it8_right_depth.png"],
+
+            "pursuing_obj": "9",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "9"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+    ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it9_top.png",
+            "side_views_rgb": ["it9_front.png", "it9_left.png", "it9_right.png"],
+
+            "top_view_depth": "it9_top_depth.png",
+            "side_views_depth": ["it9_front_depth.png", "it9_left_depth.png", "it9_right_depth.png"],
 
             "pursuing_obj": "2",
 
@@ -182,14 +233,91 @@
         },
 
         {
-            "top_view_rgb": "it8_top.png",
-            "side_views_rgb": ["it8_front.png", "it8_left.png", "it8_right.png"],
+            "top_view_rgb": "it10_top.png",
+            "side_views_rgb": ["it10_front.png", "it10_left.png", "it10_right.png"],
 
-            "top_view_depth": "it8_top_depth.png",
-            "side_views_depth": ["it8_front_depth.png", "it8_left_depth.png", "it8_right_depth.png"],
+            "top_view_depth": "it10_top_depth.png",
+            "side_views_depth": ["it10_front_depth.png", "it10_left_depth.png", "it10_right_depth.png"],
+
+            "pursuing_obj": "13",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "13"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+            
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it11_top.png",
+            "side_views_rgb": ["it11_front.png", "it11_left.png", "it11_right.png"],
+
+            "top_view_depth": "it11_top_depth.png",
+            "side_views_depth": ["it11_front_depth.png", "it11_left_depth.png", "it11_right_depth.png"],
+    
+            "pursuing_obj": "7",
+    
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "3"
+                },
+                {
+                    "type": "drop",
+                    "pose": [0, 0.15, 0.1]
+                },
+                {
+                    "type": "pick",
+                    "obj_id": "7"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it12_top.png",
+            "side_views_rgb": ["it12_front.png", "it12_left.png", "it12_right.png"],
+
+            "top_view_depth": "it12_top_depth.png",
+            "side_views_depth": ["it12_front_depth.png", "it12_left_depth.png", "it12_right_depth.png"],
+
+            "pursuing_obj": "12",
+    
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "12"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": "it13_top.png",
+            "side_views_rgb": ["it13_front.png", "it13_left.png", "it13_right.png"],
+
+            "top_view_depth": "it13_top_depth.png",
+            "side_views_depth": ["it13_front_depth.png", "it13_left_depth.png", "it13_right_depth.png"],
 
             "pursuing_obj": "1",
-
+    
             "actions": [
                 {
                     "type": "pick",
@@ -205,14 +333,14 @@
         },
 
         {
-            "top_view_rgb": "it9_top.png",
-            "side_views_rgb": ["it9_front.png", "it9_left.png", "it9_right.png"],
+            "top_view_rgb": "it14_top.png",
+            "side_views_rgb": ["it14_front.png", "it14_left.png", "it14_right.png"],
 
-            "top_view_depth": "it9_top_depth.png",
-            "side_views_depth": ["it9_front_depth.png", "it9_left_depth.png", "it9_right_depth.png"],
+            "top_view_depth": "it14_top_depth.png",
+            "side_views_depth": ["it14_front_depth.png", "it14_left_depth.png", "it14_right_depth.png"],
 
             "pursuing_obj": "3",
-
+    
             "actions": [
                 {
                     "type": "pick",
@@ -227,4 +355,5 @@
             "clutter_collapse": "false"
         }
     ]
+
 }
