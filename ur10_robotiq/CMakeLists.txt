@@ -27,14 +27,19 @@ install(DIRECTORY launch urdf config meshes worlds json rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(PROGRAMS scripts/capture_pointcloud.py
-  DESTINATION lib/${PROJECT_NAME}
-  RENAME capture_pointcloud
-)
-
 install(PROGRAMS scripts/randomize_model_poses.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME randomize_model_poses
+)
+
+install(PROGRAMS scripts/capture_views.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME capture_views
+)
+
+install(PROGRAMS scripts/get_model_pose.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME get_model_pose
 )
 
 ament_package()
