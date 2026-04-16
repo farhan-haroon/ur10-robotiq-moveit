@@ -32,4 +32,9 @@ install(PROGRAMS scripts/capture_pointcloud.py
   RENAME capture_pointcloud
 )
 
+install(PROGRAMS scripts/randomize_model_poses.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME randomize_model_poses
+)
+
 ament_package()
