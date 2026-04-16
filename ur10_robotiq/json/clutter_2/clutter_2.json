@@ -24,9 +24,8 @@
             "top_view_rgb_rgb": "it1_top.png",
             "side_views_rgb": ["it1_front.png", "it1_left.png", "it1_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
-
+            "top_view_depth": "it1_top_depth.png",
+            "side_views_depth": ["it1_front_depth.png", "it1_left_depth.png", "it1_right_depth.png"],
             "pursuing_obj": "7",
 
             "actions": [
@@ -47,8 +46,8 @@
             "top_view_rgb": "it2_top.png",
             "side_views_rgb": ["it2_front.png", "it2_left.png", "it2_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it2_top_depth.png",
+            "side_views_depth": ["it2_front_depth.png", "it2_left_depth.png", "it2_right_depth.png"],
 
             "pursuing_obj": "3",
 
@@ -70,8 +69,8 @@
             "top_view_rgb": "it3_top.png",
             "side_views_rgb": ["it3_front.png", "it3_left.png", "it3_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it3_top_depth.png",
+            "side_views_depth": ["it3_front_depth.png", "it3_left_depth.png", "it3_right_depth.png"],
 
             "pursuing_obj": "1",
 
@@ -93,8 +92,8 @@
             "top_view_rgb": "it4_top.png",
             "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it4_top_depth.png",
+            "side_views_depth": ["it4_front_depth.png", "it4_left_depth.png", "it4_right_depth.png"],
 
             "pursuing_obj": "5",
 
@@ -116,8 +115,8 @@
             "top_view_rgb": "it5_top.png",
             "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it5_top_depth.png",
+            "side_views_depth": ["it5_front_depth.png", "it5_left_depth.png", "it5_right_depth.png"],
 
             "pursuing_obj": "4",
 
@@ -139,8 +138,8 @@
             "top_view_rgb": "it6_top.png",
             "side_views_rgb": ["it6_front.png", "it6_left.png", "it6_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it6_top_depth.png",
+            "side_views_depth": ["it6_front_depth.png", "it6_left_depth.png", "it6_right_depth.png"],
 
             "pursuing_obj": "6",
 
@@ -162,8 +161,8 @@
             "top_view_rgb": "it7_top.png",
             "side_views_rgb": ["it7_front.png", "it7_left.png", "it7_right.png"],
 
-            "top_view_depth": null,
-            "side_views_depth": [],
+            "top_view_depth": "it7_top_depth.png",
+            "side_views_depth": ["it7_front_depth.png", "it7_left_depth.png", "it7_right_depth.png"],
 
             "pursuing_obj": "2",
 

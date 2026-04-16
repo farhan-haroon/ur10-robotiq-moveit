@@ -27,4 +27,9 @@ install(DIRECTORY launch urdf config meshes worlds json rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(PROGRAMS scripts/capture_pointcloud.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME capture_pointcloud
+)
+
 ament_package()
