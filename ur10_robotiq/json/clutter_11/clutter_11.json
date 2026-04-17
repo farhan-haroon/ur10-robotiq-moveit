@@ -1,0 +1,343 @@
+{
+    "objects": {
+        "1": "cube_r",
+        "2": "cube_g",
+        "3": "cube_b",
+        "4": "cube_purple",
+        "5": "cuboid_r",
+        "6": "cuboid_g",
+        "7": "cuboid_b",
+        "8": "cuboid_purple",
+        "9": "cuboid_orange",
+        "10": "cuboid_yellow",
+        "11": "cuboid_cyan",
+        "12": "cylinder_r",
+        "13": "cylinder_g",
+        "14": "cylinder_b"
+    },
+
+    "trays": {
+        "1": "tray_green",
+        "2": "tray_red",
+        "3": "tray_blue"
+    },
+
+    "actions": ["pick", "push", "drop", "place"],
+
+    "iterations": [
+        {
+            "top_view_rgb": ["it1_top.png", "it1_top_1.png", "it1_top_2.png", "it1_top_3.png", "it1_top_4.png", "it1_top_5.png", "it1_top_6.png"],
+            "side_views_rgb": ["it1_front.png", "it1_left.png", "it1_right.png"],
+
+            "top_view_depth": ["it1_top_depth.png", "it1_top_1_depth.png", "it1_top_2_depth.png", "it1_top_3_depth.png", "it1_top_4_depth.png", "it1_top_5_depth.png", "it1_top_6_depth.png"],
+            "side_views_depth": ["it1_front_depth.png", "it1_left_depth.png", "it1_right_depth.png"],
+
+            "pursuing_obj": "12",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "12"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it2_top.png", "it2_top_1.png", "it2_top_2.png", "it2_top_3.png", "it2_top_4.png", "it2_top_5.png", "it2_top_6.png"],
+            "side_views_rgb": ["it2_front.png", "it2_left.png", "it2_right.png"],
+
+            "top_view_depth": ["it2_top_depth.png", "it2_top_1_depth.png", "it2_top_2_depth.png", "it2_top_3_depth.png", "it2_top_4_depth.png", "it2_top_5_depth.png", "it2_top_6_depth.png"],
+            "side_views_depth": ["it2_front_depth.png", "it2_left_depth.png", "it2_right_depth.png"],
+
+            "pursuing_obj": "4",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "4"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it3_top.png", "it3_top_1.png", "it3_top_2.png", "it3_top_3.png", "it3_top_4.png", "it3_top_5.png", "it3_top_6.png"],
+            "side_views_rgb": ["it3_front.png", "it3_left.png", "it3_right.png"],
+
+            "top_view_depth": ["it3_top_depth.png", "it3_top_1_depth.png", "it3_top_2_depth.png", "it3_top_3_depth.png", "it3_top_4_depth.png", "it3_top_5_depth.png", "it3_top_6_depth.png"],
+            "side_views_depth": ["it3_front_depth.png", "it3_left_depth.png", "it3_right_depth.png"],
+
+            "pursuing_obj": "14",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "14"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it4_top.png", "it4_top_1.png", "it4_top_2.png", "it4_top_3.png", "it4_top_4.png", "it4_top_5.png", "it4_top_6.png"],
+            "side_views_rgb": ["it4_front.png", "it4_left.png", "it4_right.png"],
+
+            "top_view_depth": ["it4_top_depth.png", "it4_top_1_depth.png", "it4_top_2_depth.png", "it4_top_3_depth.png", "it4_top_4_depth.png", "it4_top_5_depth.png", "it4_top_6_depth.png"],
+            "side_views_depth": ["it4_front_depth.png", "it4_left_depth.png", "it4_right_depth.png"],
+
+            "pursuing_obj": "10",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "10"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it5_top.png", "it5_top_1.png", "it5_top_2.png", "it5_top_3.png", "it5_top_4.png", "it5_top_5.png", "it5_top_6.png"],
+            "side_views_rgb": ["it5_front.png", "it5_left.png", "it5_right.png"],
+
+            "top_view_depth": ["it5_top_depth.png", "it5_top_1_depth.png", "it5_top_2_depth.png", "it5_top_3_depth.png", "it5_top_4_depth.png", "it5_top_5_depth.png", "it5_top_6_depth.png"],
+            "side_views_depth": ["it5_front_depth.png", "it5_left_depth.png", "it5_right_depth.png"],
+
+            "pursuing_obj": "9",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "9"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it6_top.png", "it6_top_1.png", "it6_top_2.png", "it6_top_3.png", "it6_top_4.png", "it6_top_5.png", "it6_top_6.png"],
+            "side_views_rgb": ["it6_front.png", "it6_left.png", "it6_right.png"],
+
+            "top_view_depth": ["it6_top_depth.png", "it6_top_1_depth.png", "it6_top_2_depth.png", "it6_top_3_depth.png", "it6_top_4_depth.png", "it6_top_5_depth.png", "it6_top_6_depth.png"],
+            "side_views_depth": ["it6_front_depth.png", "it6_left_depth.png", "it6_right_depth.png"],
+
+            "pursuing_obj": "6",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "6"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it7_top.png", "it7_top_1.png", "it7_top_2.png", "it7_top_3.png", "it7_top_4.png", "it7_top_5.png", "it7_top_6.png"],
+            "side_views_rgb": ["it7_front.png", "it7_left.png", "it7_right.png"],
+
+            "top_view_depth": ["it7_top_depth.png", "it7_top_1_depth.png", "it7_top_2_depth.png", "it7_top_3_depth.png", "it7_top_4_depth.png", "it7_top_5_depth.png", "it7_top_6_depth.png"],
+            "side_views_depth": ["it7_front_depth.png", "it7_left_depth.png", "it7_right_depth.png"],
+
+            "pursuing_obj": "7",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "7"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it8_top.png", "it8_top_1.png", "it8_top_2.png", "it8_top_3.png", "it8_top_4.png", "it8_top_5.png", "it8_top_6.png"],
+            "side_views_rgb": ["it8_front.png", "it8_left.png", "it8_right.png"],
+
+            "top_view_depth": ["it8_top_depth.png", "it8_top_1_depth.png", "it8_top_2_depth.png", "it8_top_3_depth.png", "it8_top_4_depth.png", "it8_top_5_depth.png", "it8_top_6_depth.png"],
+            "side_views_depth": ["it8_front_depth.png", "it8_left_depth.png", "it8_right_depth.png"],
+
+            "pursuing_obj": "13",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "13"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "3"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it9_top.png", "it9_top_1.png", "it9_top_2.png", "it9_top_3.png", "it9_top_4.png", "it9_top_5.png", "it9_top_6.png"],
+            "side_views_rgb": ["it9_front.png", "it9_left.png", "it9_right.png"],
+
+            "top_view_depth": ["it9_top_depth.png", "it9_top_1_depth.png", "it9_top_2_depth.png", "it9_top_3_depth.png", "it9_top_4_depth.png", "it9_top_5_depth.png", "it9_top_6_depth.png"],
+            "side_views_depth": ["it9_front_depth.png", "it9_left_depth.png", "it9_right_depth.png"],
+
+            "pursuing_obj": "11",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "11"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it10_top.png", "it10_top_1.png", "it10_top_2.png", "it10_top_3.png", "it10_top_4.png", "it10_top_5.png", "it10_top_6.png"],
+            "side_views_rgb": ["it10_front.png", "it10_left.png", "it10_right.png"],
+
+            "top_view_depth": ["it10_top_depth.png", "it10_top_1_depth.png", "it10_top_2_depth.png", "it10_top_3_depth.png", "it10_top_4_depth.png", "it10_top_5_depth.png", "it10_top_6_depth.png"],
+            "side_views_depth": ["it10_front_depth.png", "it10_left_depth.png", "it10_right_depth.png"],
+
+            "pursuing_obj": "8",
+
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "8"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "2"
+                }
+            ],
+            
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it11_top.png", "it11_top_1.png", "it11_top_2.png", "it11_top_3.png", "it11_top_4.png", "it11_top_5.png", "it11_top_6.png"],
+            "side_views_rgb": ["it11_front.png", "it11_left.png", "it11_right.png"],
+
+            "top_view_depth": ["it11_top_depth.png", "it11_top_1_depth.png", "it11_top_2_depth.png", "it11_top_3_depth.png", "it11_top_4_depth.png", "it11_top_5_depth.png", "it11_top_6_depth.png"],
+            "side_views_depth": ["it11_front_depth.png", "it11_left_depth.png", "it11_right_depth.png"],
+    
+            "pursuing_obj": "3",
+    
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "3"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it12_top.png", "it12_top_1.png", "it12_top_2.png", "it12_top_3.png", "it12_top_4.png", "it12_top_5.png", "it12_top_6.png"],
+            "side_views_rgb": ["it12_front.png", "it12_left.png", "it12_right.png"],
+
+            "top_view_depth": ["it12_top_depth.png", "it12_top_1_depth.png", "it12_top_2_depth.png", "it12_top_3_depth.png", "it12_top_4_depth.png", "it12_top_5_depth.png", "it12_top_6_depth.png"],
+            "side_views_depth": ["it12_front_depth.png", "it12_left_depth.png", "it12_right_depth.png"],
+
+            "pursuing_obj": "1",
+    
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "1"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it13_top.png", "it13_top_1.png", "it13_top_2.png", "it13_top_3.png", "it13_top_4.png", "it13_top_5.png", "it13_top_6.png"],
+            "side_views_rgb": ["it13_front.png", "it13_left.png", "it13_right.png"],
+
+            "top_view_depth": ["it13_top_depth.png", "it13_top_1_depth.png", "it13_top_2_depth.png", "it13_top_3_depth.png", "it13_top_4_depth.png", "it13_top_5_depth.png", "it13_top_6_depth.png"],
+            "side_views_depth": ["it13_front_depth.png", "it13_left_depth.png", "it13_right_depth.png"],
+
+            "pursuing_obj": "2",
+    
+            "actions": [
+                {
+                    "type": "pick",
+                    "obj_id": "2"
+                },
+                {
+                    "type": "place",
+                    "tray_id": "1"
+                }
+            ],
+
+            "clutter_collapse": "false"
+        },
+
+        {
+            "top_view_rgb": ["it14_top.png", "it14_top_1.png", "it14_top_2.png", "it14_top_3.png", "it14_top_4.png", "it14_top_5.png", "it14_top_6.png"],
+            "side_views_rgb": ["it14_front.png", "it14_left.png", "it14_right.png"],
+
+            "top_view_depth": ["it14_top_depth.png", "it14_top_1_depth.png", "it14_top_2_depth.png", "it14_top_3_depth.png", "it14_top_4_depth.png", "it14_top_5_depth.png", "it14_top_6_depth.png"],
+            "side_views_depth": ["it14_front_depth.png", "it14_left_depth.png", "it14_right_depth.png"],
+
+            "pursuing_obj": "5",
+    
+            "actions": [
+            ],
+
+            "clutter_collapse": "true"
+        }
+    ]
+
+}
