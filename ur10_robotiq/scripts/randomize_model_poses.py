@@ -8,7 +8,6 @@ from gazebo_msgs.srv import GetModelList, GetEntityState, SetEntityState
 from gazebo_msgs.msg import EntityState
 from geometry_msgs.msg import Pose
 
-
 EXCLUDED_MODELS = {
     "ground_plane",
     "table_marble",
@@ -19,7 +18,6 @@ EXCLUDED_MODELS = {
     "camera",
     "workspace"
 }
-
 
 class RandomizeModels(Node):
 
@@ -82,12 +80,11 @@ class RandomizeModels(Node):
         new_pose = Pose()
 
         # 🎯 Sample within circle (radius ≤ 0.05 m) centered at (0,0)
-        r = random.uniform(0.0, 0.05)
+        r = random.uniform(0.0, 0.15)
         theta = random.uniform(0.0, 2 * math.pi)
 
         new_pose.position.x = r * math.cos(theta)
         new_pose.position.y = r * math.sin(theta)
-
         # 🎯 Height perturbation
         new_pose.position.z = pose.position.z + random.uniform(0.2, 0.3)
 
